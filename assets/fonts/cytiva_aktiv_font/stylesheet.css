@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Cytiva Aktiv App';
+    src: url('CytivaAktivApp-Italic.woff2') format('woff2'),
+        url('CytivaAktivApp-Italic.woff') format('woff'),
+        url('CytivaAktivApp-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cytiva Aktiv App';
+    src: url('CytivaAktivApp-BoldItalic.woff2') format('woff2'),
+        url('CytivaAktivApp-BoldItalic.woff') format('woff'),
+        url('CytivaAktivApp-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cytiva Aktiv App';
+    src: url('CytivaAktivApp-Regular.woff2') format('woff2'),
+        url('CytivaAktivApp-Regular.woff') format('woff'),
+        url('CytivaAktivApp-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cytiva Aktiv App';
+    src: url('CytivaAktivApp-Bold.woff2') format('woff2'),
+        url('CytivaAktivApp-Bold.woff') format('woff'),
+        url('CytivaAktivApp-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cytiva Aktiv';
+    src: url('CytivaAktiv-BoldItalic.woff2') format('woff2'),
+        url('CytivaAktiv-BoldItalic.woff') format('woff'),
+        url('CytivaAktiv-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cytiva Aktiv';
+    src: url('CytivaAktiv-Regular.woff2') format('woff2'),
+        url('CytivaAktiv-Regular.woff') format('woff'),
+        url('CytivaAktiv-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cytiva Aktiv';
+    src: url('CytivaAktiv-Italic.woff2') format('woff2'),
+        url('CytivaAktiv-Italic.woff') format('woff'),
+        url('CytivaAktiv-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cytiva Aktiv';
+    src: url('CytivaAktiv-Bold.woff2') format('woff2'),
+        url('CytivaAktiv-Bold.woff') format('woff'),
+        url('CytivaAktiv-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '.';
+    src: url('b74e83db16aa1c1c64f968093df076d6.woff2') format('woff2'),
+        url('b74e83db16aa1c1c64f968093df076d6.woff') format('woff'),
+        url('b74e83db16aa1c1c64f968093df076d6.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '.';
+    src: url('3d65f35709f807a3bc3b035200b04ce8.woff2') format('woff2'),
+        url('3d65f35709f807a3bc3b035200b04ce8.woff') format('woff'),
+        url('3d65f35709f807a3bc3b035200b04ce8.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '.';
+    src: url('63087a3ff8a97e20d55c71f905e6992a.woff2') format('woff2'),
+        url('63087a3ff8a97e20d55c71f905e6992a.woff') format('woff'),
+        url('63087a3ff8a97e20d55c71f905e6992a.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '.';
+    src: url('5f53a74250137bf6009f692e9954992d.woff2') format('woff2'),
+        url('5f53a74250137bf6009f692e9954992d.woff') format('woff'),
+        url('5f53a74250137bf6009f692e9954992d.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '.';
+    src: url('6d803381a9c02f439c583e1a17623fec.woff2') format('woff2'),
+        url('6d803381a9c02f439c583e1a17623fec.woff') format('woff'),
+        url('6d803381a9c02f439c583e1a17623fec.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '.';
+    src: url('04ade737a5ab4f97b8e37611e0248710.woff2') format('woff2'),
+        url('04ade737a5ab4f97b8e37611e0248710.woff') format('woff'),
+        url('04ade737a5ab4f97b8e37611e0248710.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '.';
+    src: url('ff24ce3b07bbddb3696d239d8a7c0000.woff2') format('woff2'),
+        url('ff24ce3b07bbddb3696d239d8a7c0000.woff') format('woff'),
+        url('ff24ce3b07bbddb3696d239d8a7c0000.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '.';
+    src: url('96844a15a06502bb8f563ca8fdcf0e9f.woff2') format('woff2'),
+        url('96844a15a06502bb8f563ca8fdcf0e9f.woff') format('woff'),
+        url('96844a15a06502bb8f563ca8fdcf0e9f.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

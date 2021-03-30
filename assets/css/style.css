@@ -1,0 +1,283 @@
+/* Reset Css */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Cytiva Aktiv";
+}
+a:hover {
+  text-decoration: none;
+}
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.menu-toggled {
+  overflow: hidden !important;
+}
+
+:root {
+  --primary-color: #132b57;
+  --secondary-color: #2cc9aa;
+}
+
+.btn-cytiva,
+button:not(.close) {
+  background-color: #00886f !important;
+  color: #ffffff !important;
+  outline: none;
+  border: none !important;
+  cursor: pointer;
+}
+
+.modal-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #00886f;
+}
+
+.modal-body h3,
+.modal-body h4 {
+  font-size: 20px;
+  color: #111111cf;
+}
+
+.modal-body p {
+  font-size: 16px;
+}
+
+.wrapper {
+  background: var(--primary-color);
+  position: relative;
+  padding: 100px;
+  width: 100%;
+  min-height: 100vh;
+}
+.game-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 44px;
+  letter-spacing: 1px;
+  border: 2px solid var(--secondary-color);
+  position: relative;
+  padding: 10px;
+  max-width: 400px;
+  margin: 0 auto 70px;
+}
+.game-title::before,
+.game-title::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-width: 3px !important;
+}
+
+.game-title::before {
+  left: -16px;
+  top: -16px;
+  border-top: inherit;
+  border-left: inherit;
+}
+.game-title::after {
+  right: -15px;
+  top: -15px;
+  border-right: inherit;
+  border-top: inherit;
+}
+.game-title span {
+  width: calc(100% + 36px);
+  height: calc(100% + 36px);
+  display: inline-block;
+  position: absolute;
+  bottom: -18px;
+  left: -18px;
+  border: 3px solid transparent;
+}
+
+.game-title span::before,
+.game-title span::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: block;
+  border: inherit;
+  border-color: var(--secondary-color);
+}
+.game-title span::before {
+  left: 0;
+  bottom: 0;
+  border-top: none;
+  border-right: none;
+}
+.game-title span::after {
+  right: 0;
+  bottom: 0;
+  border-top: none;
+  border-left: none;
+}
+.dropBox {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.score {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  background: #06cebb;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+}
+
+.dropBox img {
+  max-width: 200px;
+  margin: 0px auto;
+  display: block;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.bulbBox {
+  width: 100%;
+  background: linear-gradient(to right, #80808026 1px, transparent 1px),
+    linear-gradient(to bottom, #80808026 1px, transparent 1px) #f7f7ff;
+  height: 510px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  padding: 50px;
+  border-radius: 30px;
+  background-size: 75px 66.5px;
+}
+
+.bulbBox li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 5);
+  height: 50px;
+  background: #1c212c;
+  margin: 0px;
+  list-style-type: none;
+  cursor: grab;
+  border-radius: 10px;
+}
+.bulbBox li.ui-draggable-disabled {
+  cursor: default;
+}
+.bulbBox li span {
+  color: #fff;
+  font-size: 22px;
+}
+
+/* Shake Animation CSS */
+.shake {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+.modal-title {
+  position: relative;
+}
+
+.scoreBox .modal-title::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: url(../images/party-popper.png);
+  background-size: 30px;
+  right: -40px;
+  top: 0;
+}
+
+.scoreBox .modal-title::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: url(../images/party-popper.png);
+  background-size: 30px;
+  left: -40px;
+  top: 0;
+}
+.game-score {
+  font-size: 22px;
+}
+@media (max-width: 992px) {
+  .bulbBox {
+    padding: 20px;
+    height: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 20px;
+  }
+  .score {
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+}
+@media (max-width: 576px) {
+  .game-title {
+    font-size: 28px;
+  }
+}
